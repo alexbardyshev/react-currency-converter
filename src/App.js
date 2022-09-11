@@ -66,7 +66,7 @@ function App() {
             justifyContent="center"
             style={{ minHeight: '100vh' }}
         >
-            <h1>React Currency Exchanger</h1>
+            <h1>Currency Exchanger</h1>
               <CurrencyInput
                   amount={amount1}
                   currency={currency1}
