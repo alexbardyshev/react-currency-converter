@@ -71,12 +71,14 @@ function App() {
                   amount={amount1}
                   currency={currency1}
                   currencies={Object.keys(rates)}
+                  label="Buy"
                   onAmountChange={handleAmount1Change}
                   onCurrencyChange={handleCurrency1Change}
               />
               <CurrencyInput
                   amount={amount2}
                   currency={currency2}
+                  label="for"
                   currencies={Object.keys(rates)}
                   onAmountChange={handleAmount2Change}
                   onCurrencyChange={handleCurrency2Change}
