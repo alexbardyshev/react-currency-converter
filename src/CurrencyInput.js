@@ -1,4 +1,5 @@
 import React from 'react';
+import {array, number, string} from "prop-types";
 
 export const CurrencyInput = (props) => {
     return (
@@ -11,4 +12,10 @@ export const CurrencyInput = (props) => {
             </select>
         </div>
     )
+}
+
+CurrencyInput.propTypes = {
+    amount: number,
+    currency: string,
+    currencies: array,
 }
